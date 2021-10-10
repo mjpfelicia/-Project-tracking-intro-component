@@ -52,17 +52,12 @@ a {
 
 .login {
     color: var(--cor-azul-acinzentado-escuro);
+    opacity: 0.5;
 }
 
 ul {
     list-style: none;
     line-height: 2.4em;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .link-header {
@@ -84,12 +79,9 @@ li:nth-child(4) {
 
 .logos {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 80%;
-}
-
-.logos img {
-    width: 20px;
 }
 
 .contant-illustration {
@@ -158,4 +150,63 @@ span {
     line-height: 1em;
     font-size: 12px;
     color: var(--cor-azul-acinzentado-escuro);
+}
+
+@media (min-width:1023px) {
+    body::after {
+        height: 43%;
+    }
+    main {
+        margin: 0 7em;
+    }
+    .conteiner-geral {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .icon-hamburger {
+        display: none;
+    }
+    .logos {
+        width: 10%;
+        left: 7em;
+        position: absolute;
+    }
+    .link-header {
+        display: flex;
+    }
+    .menu {
+        justify-content: flex-end;
+    }
+    ul {
+        display: flex;
+        cursor: pointer;
+    }
+    li {
+        padding-inline-end: 2em;
+    }
+    li:nth-child(4) {
+        display: none;
+    }
+    .ponto-Desktop {
+        color: var(--cor-azul-acinzentado-escuro);
+        opacity: 0.5;
+    }
+    .contant-illustration {
+        width: 50%;
+    }
+    section {
+        width: 50%;
+        padding: 0;
+    }
+    .titulo-Powerful {
+        font-size: 4em;
+    }
+    .text-project {
+        width: 45%;
+    }
+    .img-illustration {
+        height: 31vw;
+        width: 125%;
+    }
 }
