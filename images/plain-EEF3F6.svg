@@ -1,0 +1,13 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    width="100%" 
+    height="100%" 
+    viewBox="0 0  840 1000">
+    
+    <path 
+        d="M4,0v-1.5v-2h-6h-2v5a2,2,0,0,0,2,2h4h2Z" 
+        style="fill:#ccc;" 
+        transform="matrix(104.639 0 0 74.777 435.613 272.76)"
+    />
+</svg>
