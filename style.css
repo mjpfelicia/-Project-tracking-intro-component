@@ -57,11 +57,16 @@ a {
 
 ul {
     list-style: none;
-    line-height: 2.4em;
+    line-height: 2.8em;
 }
 
 .link-header {
     display: none;
+    width: 80%;
+    position: absolute;
+    top: 7em;
+    background: white;
+    box-shadow: 0px 0px 2px var(--cor-azul-acinzentado-claro);
 }
 
 li {
@@ -69,6 +74,10 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     font-family: "Barlow Condensed";
+}
+
+.ponto-Desktop {
+    display: none;
 }
 
 li:nth-child(4) {
@@ -152,6 +161,35 @@ span {
     color: var(--cor-azul-acinzentado-escuro);
 }
 
+.container-hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bur1,
+.bur2,
+.bur3 {
+    width: 25px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bur1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bur2 {
+    opacity: 0;
+}
+
+.change .bur3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 @media screen and (min-width: 1024px) {
     body::after {
         height: 43%;
@@ -164,7 +202,7 @@ span {
         align-items: center;
         flex-direction: row-reverse;
     }
-    .icon-hamburger {
+    .container-hamburger {
         display: none;
     }
     .logos {
@@ -173,7 +211,7 @@ span {
         position: absolute;
     }
     .link-header {
-        display: flex;
+        display: contents;
     }
     .menu {
         justify-content: flex-end;
@@ -181,6 +219,9 @@ span {
     ul {
         display: flex;
         cursor: pointer;
+    }
+    li:hover {
+        text-decoration: underline;
     }
     li {
         padding-inline-end: 2em;
@@ -191,6 +232,7 @@ span {
     .ponto-Desktop {
         color: var(--cor-azul-acinzentado-escuro);
         opacity: 0.5;
+        display: flex;
     }
     .contant-illustration {
         width: 50%;
@@ -212,5 +254,9 @@ span {
     .btn-Schedule {
         width: 150px;
         height: 45px;
+    }
+    .btn-Schedule:hover {
+        opacity: 0.7;
+        cursor: pointer;
     }
 }
