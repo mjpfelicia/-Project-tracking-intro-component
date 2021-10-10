@@ -152,7 +152,7 @@ span {
     color: var(--cor-azul-acinzentado-escuro);
 }
 
-@media (min-width:1023px) {
+@media screen and (min-width: 1024px) {
     body::after {
         height: 43%;
     }
