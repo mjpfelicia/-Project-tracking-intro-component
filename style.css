@@ -16,7 +16,7 @@ body::after {
     content: '';
     position: absolute;
     width: 50%;
-    height: 75%;
+    height: 60%;
     background-color: var(--cor-azul-acinzentado-claro);
     top: 0;
     right: 0;
@@ -104,7 +104,7 @@ li:nth-child(4) {
 }
 
 section {
-    padding: 50px 30px;
+    padding: 60px 30px;
 }
 
 .btn-new {
