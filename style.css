@@ -203,10 +203,14 @@ span {
         font-size: 4em;
     }
     .text-project {
-        width: 45%;
+        width: 50%;
     }
     .img-illustration {
         height: 31vw;
         width: 125%;
+    }
+    .btn-Schedule {
+        width: 150px;
+        height: 45px;
     }
 }
