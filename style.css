@@ -4,7 +4,8 @@
 /*Títulos, frases de chamariz, navegação*/
 
 body,
-ul {
+ul,
+h1 {
     margin: 0px;
     padding: 0px;
     font-family: "Barlow";
@@ -15,7 +16,7 @@ body::after {
     content: '';
     position: absolute;
     width: 50%;
-    height: 65%;
+    height: 75%;
     background-color: var(--cor-azul-acinzentado-claro);
     top: 0;
     right: 0;
@@ -103,7 +104,7 @@ li:nth-child(4) {
 }
 
 section {
-    padding: 30px;
+    padding: 50px 30px;
 }
 
 .btn-new {
@@ -118,6 +119,8 @@ section {
 
 .btn-Schedule {
     font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-size: 12px;
     width: 145px;
     height: 33px;
     border: none;
@@ -129,6 +132,7 @@ section {
 span {
     color: var(--cor-azul-acinzentado-escuro);
     text-transform: uppercase;
+    font-size: 0.9em;
     padding-left: 10px;
     opacity: 0.5;
     line-height: 1em;
@@ -139,12 +143,14 @@ span {
     text-transform: uppercase;
     font-family: "Barlow Condensed";
     font-weight: 700;
-    font-size: 1.9em;
+    font-size: 2.3em;
+    max-width: 20px 0;
 }
 
 .text-project {
     color: var(--cor-azul-muito-escuro);
     padding-bottom: 20px;
+    opacity: 0.8;
 }
 
 .span-to-see {
