@@ -240,6 +240,8 @@ span {
     section {
         width: 50%;
         padding: 0;
+        height: 17em;
+        padding: 0;
     }
     .titulo-Powerful {
         font-size: 4em;
