@@ -248,8 +248,9 @@ span {
         width: 50%;
     }
     .img-illustration {
-        height: 31vw;
-        width: 125%;
+        height: 32vw;
+        width: 122%;
+        overflow: hidden;
     }
     .btn-Schedule {
         width: 150px;
