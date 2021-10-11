@@ -1,11 +1,17 @@
 /**
  * 
- * @param {HTMLElement} x 
+ * @param {HTMLElement} btnMenu 
+ * 
  */
-
 function menuHamburger(btnMenu) {
     const linkHeader = document.querySelector(".link-header");
-    btnMenu.classList.toggle("change");
-    linkHeader.style.display = "block";
-    console.log(x);
+
+    if (btnMenu.classList.toggle("change")) {
+        linkHeader.style.display = "block";
+
+    } else {
+
+        linkHeader.style.display = "none";
+    }
+
 }

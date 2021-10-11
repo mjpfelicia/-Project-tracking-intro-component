@@ -10,7 +10,7 @@ h1 {
     padding: 0px;
     font-family: "Barlow";
     font-size: 18px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body::after {
