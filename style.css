@@ -192,10 +192,10 @@ span {
 
 @media screen and (min-width: 1024px) {
     body::after {
-        height: 43%;
+        height: 54%;
     }
     main {
-        margin: 0 7em;
+        margin: auto 7em;
     }
     .conteiner-geral {
         display: flex;
@@ -240,7 +240,7 @@ span {
     section {
         width: 50%;
         padding: 0;
-        height: 17em;
+        height: 22em;
         padding: 0;
     }
     .titulo-Powerful {
